@@ -1,0 +1,41 @@
+h1 {
+  margin-left: 20px;
+}
+.cadastro-container {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd; /* Adiciona uma borda */
+  border-radius: 10px;
+  max-width: 400px; /* Limita a largura do contêiner */
+  margin: 0 auto; /* Centraliza o contêiner horizontalmente */
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input-field {
+  margin-bottom: 14px;
+}
+
+.input-field input {
+  height: 18px;
+  width: 390px; /* Ajuste a altura desejada */
+}
+
+.input-field label {
+  display: block;
+  margin-bottom: 5px; /* Adicione margem inferior para separá-los dos campos */
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 150px;
+}
+
+/* Estilo para o botão de envio quando hover */
+button:hover {
+  background-color: #1c7fe8;
+}
